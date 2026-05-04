@@ -9,7 +9,6 @@ import {
   Award,
   Clock,
   CheckCircle,
-  Zap,
   ExternalLink
 } from 'lucide-react';
 

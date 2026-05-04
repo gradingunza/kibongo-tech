@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import HeroBanner from "../assets/p.jpg";
 import { motion, useAnimation } from "framer-motion";
 import { ArrowRight } from "lucide-react";
@@ -35,19 +35,6 @@ const Hero = () => {
       transition: {
         staggerChildren: 0.03,
         delayChildren: 0.3
-      }
-    }
-  };
-
-  const letter = {
-    hidden: { opacity: 0, y: 20 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        type: "spring" as const,
-        damping: 12,
-        stiffness: 100
       }
     }
   };

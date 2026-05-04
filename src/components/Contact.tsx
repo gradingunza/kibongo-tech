@@ -8,7 +8,6 @@ import {
   Send, 
   CheckCircle,
   Clock,
-  MessageSquare,
   User,
   AlertCircle
 } from 'lucide-react';

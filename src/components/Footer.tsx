@@ -4,11 +4,9 @@ import {
   Mail, 
   Phone, 
   Facebook, 
-  Twitter, 
   Instagram, 
   Linkedin, 
-  Youtube,
-  Send,
+
   Clock,
   Award,
   ChevronRight,
